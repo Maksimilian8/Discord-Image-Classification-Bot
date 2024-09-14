@@ -20,6 +20,6 @@ Image Classification Bot
     ```python
     bot.run("TOKEN")
     ```
-Лицензия:
+
 
 

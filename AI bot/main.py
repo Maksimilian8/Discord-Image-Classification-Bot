@@ -23,14 +23,9 @@ async def check(ctx):
             file_name = attachment.filename
             file_path = f'images/{file_name}'
 
-
             await attachment.save(file_path)
-            
-     
             name = fish(file_path)
-
             await ctx.send(f'Сохранили изображение в {file_path}')
-
             await ctx.send(f'Распознано: {name}')
 
             if name == "Роза":
